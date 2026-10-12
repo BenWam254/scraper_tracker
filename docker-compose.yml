@@ -1,0 +1,15 @@
+services:
+  scraper-tracker:
+    build: .
+    container_name: scraper_tracker_app
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      # Persist DuckDB database file outside the container
+      - db_data:/app/data
+    restart: unless-stopped
+
+volumes:
+  db_data:
