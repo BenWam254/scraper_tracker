@@ -1,0 +1,25 @@
+[project]
+name = "scraper-tracker"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Benny Wambua", email = "wambuabeny69@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "crawl4ai>=0.9.4",
+    "duckdb>=1.5.6",
+    "fastapi>=0.142.2",
+    "httpx>=0.28.1",
+    "pydantic>=2.13.5",
+    "python-dotenv>=1.2.4",
+    "uvicorn>=0.54.0",
+]
+
+[project.scripts]
+scraper-tracker = "scraper_tracker:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"

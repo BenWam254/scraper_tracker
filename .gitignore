@@ -1,0 +1,14 @@
+# Virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# Environment and Secrets
+.env
+
+# Local Database
+*.duckdb
+*.duckdb.wal
+
+# CrawL4AI / Playwright caches
+.crawl4ai/
