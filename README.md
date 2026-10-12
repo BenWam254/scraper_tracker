@@ -118,15 +118,11 @@ Query DuckDB execution history from your terminal using analytics.py:
 ```bash
 # General pipeline summary
 uv run python analytics.py
-```
+
 # Filter by time window (e.g., last 24 hours)
-
-```bash
 uv run python analytics.py --scraper hn_top_stories
-```
-# Show only failed runs or error responses
 
-```bash
+# Show only failed runs or error responses
 uv run python analytics.py --failed-only
 ```
 ### License
