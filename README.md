@@ -1,5 +1,10 @@
 # scraper-tracker
 
+[![CI Pipeline](https://github.com/BenWam254/schema-guard/actions/workflows/ci.yml/badge.svg)](https://github.com/BenWam254/schema-guard/actions)
+[![Python Version](https://img.shields.io/badge/python-3.13-blue.svg)](https://www.python.org/downloads/)
+[![Package Manager](https://img.shields.io/badge/managed%20by-uv-purple.svg)](https://github.com/astral-sh/uv)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 An asynchronous monitoring and alerting pipeline built to track web scraper execution latency, status codes, and extraction metrics in real time.
 
 Built with **FastAPI** for high-throughput metric ingestion and **DuckDB** for zero-maintenance embedded analytical persistence, `scraper-tracker` evaluates incoming run payloads against customizable per-bot rule thresholds and dispatches actionable alerts via the **Telegram Bot API**.
