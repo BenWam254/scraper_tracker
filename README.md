@@ -126,4 +126,4 @@ uv run python analytics.py --scraper hn_top_stories
 uv run python analytics.py --failed-only
 ```
 ### License
-Distributed under the MIT License. See LICENSE for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
